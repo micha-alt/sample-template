@@ -13,6 +13,14 @@ strong, b {
   font-weight: 600;
 }
 
+a {
+  color: #4299E1;
+  text-decoration: none;
+}
+  a:hover {
+    color: #2C5282;
+  }
+
 pre[data-file]::before {
   content: attr(data-file);
   position: absolute;
